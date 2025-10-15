@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkSpot UNESA Ketintang - Beranda</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-container">
+          <div class="logo">
+    <img src="images/logo.png" alt="WorkSpot UNESA Logo">
+    <span>WorkSpot UNESA</span>
+</div>
+            <ul class="nav-links">
+                <li><a href="beranda.html">Beranda</a></li>
+                <li><a href="detail.html">Detail</a></li>
+                <li><a href="saran.html">Saran</a></li>
+                <li><a href="tentang.html">Tentang Kami</a></li>
+                <li><button class="dark-mode-toggle" onclick="toggleDarkMode()">🌗 Dark Mode</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+       <!-- Hero Section -->
+    <section class="hero">
+        <h1>WorkSpot UNESA Ketintang</h1>
+        <p>Temukan tempat nugas dan nongkrong nyaman di sekitar UNESA Ketintang! Dari kafe hingga ruang belajar, semua ada di sini.</p>
+        <div class="hero-buttons">
+            <a href="#placesGrid" class="hero-btn primary">Jelajahi Tempat</a>
+            <a href="saran.html" class="hero-btn secondary">Berikan Saran</a>
+        </div>
+        </section>
+
+    <!-- Container -->
+    <div class="container">
+        <!-- Rekomendasi Hari Ini -->
+        <section class="recommendation-section">
+            <h2>🎲 Rekomendasi Hari Ini</h2>
+            <div class="recommendation-card" id="recommendationCard">
+                <!-- Akan diisi oleh JavaScript -->
+            </div>
+        </section>
+
+        <!-- Daftar Tempat -->
+        <h2 class="section-title">📍 Daftar Tempat Nugas & Nongkrong</h2>
+        <div class="places-grid" id="placesGrid">
+            <!-- Akan diisi oleh JavaScript -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 WorkSpot UNESA Ketintang | Membantu mahasiswa menemukan tempat nugas terbaik</p>
+    </footer>
+
+    <script src="web.js"></script>
+</body>
+</html>
