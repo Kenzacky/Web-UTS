@@ -1,4 +1,4 @@
-# WorkSpot UNESA Ketintang  
+# WorkSpot UNESA
 
 ## ✨ Sistem yang Dirancang  
 **Website Rekomendasi Tempat Nugas Mahasiswa “WorkSpot UNESA Ketintang”**
@@ -66,5 +66,5 @@ Website dapat diakses secara publik melalui link berikut:
 
 ---
 
-📍 GitHub Repo: https://github.com/syawailie/workspot-unesa
-🌐 Website Online: https://syawailie.github.io/workspot-unesa/
+📍 GitHub Repo: 
+🌐 Website Online: https://kenzacky.github.io/Web-UTS/beranda.html 
