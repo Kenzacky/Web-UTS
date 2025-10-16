@@ -1,146 +1,70 @@
-☕ WorkSpot UNESA Ketintang
+# WorkSpot UNESA Ketintang  
 
-Deskripsi Singkat
-WorkSpot UNESA Ketintang adalah website rekomendasi tempat nugas dan nongkrong bagi mahasiswa Universitas Negeri Surabaya (UNESA), khususnya di Kampus Ketintang. Website ini menampilkan daftar tempat seperti kafe, coworking space, taman, dan area kampus yang nyaman untuk belajar, berdiskusi, atau mengerjakan tugas.
-Dibangun menggunakan HTML, CSS, dan JavaScript, website ini memiliki tampilan interaktif, ringan, serta mudah digunakan.
+## ✨ Sistem yang Dirancang  
+**Website Rekomendasi Tempat Nugas Mahasiswa “WorkSpot UNESA Ketintang”**
 
-📄 Halaman Website
+---
 
-🏠 Beranda (index.html) → Menampilkan daftar tempat & fitur “Rekomendasi Hari Ini” secara acak.
+## Latar Belakang  
+Di era digital, mahasiswa sering membutuhkan tempat yang nyaman untuk mengerjakan tugas, berdiskusi, atau sekadar belajar di luar kelas.  
+Website **WorkSpot UNESA Ketintang** dibuat untuk membantu mahasiswa Universitas Negeri Surabaya, khususnya Kampus Ketintang, menemukan tempat seperti **kafe, coworking space, taman, maupun area kampus** yang mendukung kegiatan produktif mereka.  
+Proyek ini juga menjadi bagian dari **penilaian UTS mata kuliah Pemrograman Web**, sebagai latihan dalam membangun website interaktif menggunakan **HTML, CSS, dan JavaScript**.
 
-📍 Detail (detail.html) → Informasi lengkap tentang lokasi, fasilitas, jam buka, dan tautan Google Maps.
+---
 
-💬 Saran (saran.html) → Form pengguna untuk menambah rekomendasi tempat baru (validasi input JS).
+## 🧩 Deskripsi Sistem  
+Website ini menampilkan berbagai **rekomendasi tempat nugas dan nongkrong** di sekitar UNESA Ketintang, dengan fitur interaktif yang membantu pengguna menemukan lokasi sesuai kebutuhan.  
 
-👥 Tentang Kami (tentang.html) → Profil pembuat dan tujuan pengembangan website.
+### Halaman Utama:
+- 🏠 **Beranda** – Menampilkan daftar tempat dan fitur *“Rekomendasi Hari Ini”* secara acak.  
+- 📍 **Detail Tempat** – Menyajikan informasi lengkap (foto, fasilitas, jam buka, tautan Google Maps).  
+- 💬 **Saran Tempat** – Form pengguna untuk menambahkan rekomendasi tempat baru (validasi input).  
+- 👥 **Tentang Kami** – Profil pembuat dan tujuan website.  
 
-⚙️ Fitur Utama
+Sistem ini dirancang dengan tampilan **responsif, ringan, dan mudah digunakan**, serta memanfaatkan fitur **dark mode** untuk kenyamanan pengguna.
 
-🌗 Dark Mode (tersimpan di localStorage).
+---
 
-🎲 Rekomendasi Tempat Acak di halaman beranda.
+## Tujuan Sistem  
+Website ini dikembangkan dengan tujuan untuk:  
+1. Membantu mahasiswa UNESA menemukan tempat nugas dan belajar yang sesuai kebutuhan.  
+2. Menerapkan kemampuan dasar HTML, CSS, dan JavaScript sesuai materi perkuliahan.  
+3. Menyediakan informasi tempat yang ringkas, interaktif, dan mudah diakses.  
+4. Melatih kerja sama tim dalam pembuatan proyek web interaktif.  
+5. Menjadi media kreatif dan portofolio bagi mahasiswa dalam pengembangan web.  
 
-📬 Form Validasi dengan pesan konfirmasi tanpa reload halaman.
+---
 
-📍 Integrasi Google Maps untuk melihat lokasi tempat.
+## 👥 Target Pengguna  
+**Mahasiswa UNESA Ketintang** – mencari tempat nyaman untuk belajar dan berdiskusi.  
+**Komunitas & Organisasi Kampus** – membutuhkan lokasi rapat informal atau kerja kelompok.  
+**Pemilik Usaha Lokal** – kafe dan coworking space di sekitar kampus yang ingin memperkenalkan tempatnya kepada mahasiswa.  
 
-💻 Desain Responsif, dapat diakses di laptop maupun smartphone.
+---
 
-📁 Struktur Folder
-workspot-unesa/
-├── index.html          # Halaman Beranda
-├── detail.html         # Halaman Detail Tempat
-├── saran.html          # Halaman Saran Pengguna
-├── tentang.html        # Halaman Tentang Kami
-│
-├── css/
-│   └── style.css       # File CSS utama
-│
-├── js/
-│   └── script.js       # File JavaScript utama
-│
-├── images/             # Folder berisi gambar tempat
-│   ├── kopitiam.jpg
-│   ├── titiktemu.jpg
-│   ├── perpus.jpg
-│   └── taman.jpg
-│
-└── README.md
+## Fitur Utama  
+- 🌗 **Dark Mode** – ubah tampilan gelap dan terang dengan sekali klik.  
+- 🎲 **Rekomendasi Acak** – menampilkan tempat berbeda setiap kali halaman dimuat.  
+- 📬 **Form Saran Dinamis** – validasi input dan pesan sukses tanpa reload halaman.  
+- 📍 **Integrasi Google Maps** – navigasi langsung ke lokasi tempat.  
+- 💻 **Desain Responsif** – nyaman diakses dari laptop maupun smartphone.  
 
-▶️ Cara Melihat Website
-🔹 1. Melalui GitHub Pages (Online)
+---
 
-Website ini sudah di-host secara publik melalui GitHub Pages.
-Kunjungi link berikut untuk melihat hasil akhirnya:
+## Cara Melihat Website  
 
-👉 https://syawailie.github.io/workspot-unesa/
+### 🔹 1. Melalui GitHub Pages  
+Website dapat diakses secara publik melalui link berikut:  
+👉 **[https://syawailie.github.io/workspot-unesa/](https://syawailie.github.io/workspot-unesa/)**  
 
-(Jika belum aktif, pastikan kamu sudah mengatur GitHub Pages di Settings → Pages → Source: main branch.)
+### 🔹 2. Menjalankan Secara Lokal  
+1. Clone repository:  
+   ```bash
+   git clone https://github.com/syawailie/workspot-unesa.git
+2. Buka folder dan klik dua kali file index.html.
+3. Website akan terbuka langsung di browser.
 
-🔹 2. Menjalankan Secara Lokal
+---
 
-Jika ingin membuka di komputer sendiri:
-
-Unduh atau clone repository ini:
-
-git clone https://github.com/syawailie/workspot-unesa.git
-
-
-Buka folder hasil clone → klik dua kali pada file index.html.
-
-Website akan langsung terbuka di browser.
-
-🧠 Tujuan Website
-
-Membantu mahasiswa UNESA menemukan tempat nugas, belajar, dan berdiskusi di sekitar kampus Ketintang.
-
-Menyediakan informasi tempat yang lengkap, menarik, dan mudah diakses.
-
-Menerapkan kemampuan dasar HTML, CSS, dan JavaScript sesuai materi Pemrograman Web.
-
-Melatih kolaborasi tim dalam pembuatan website interaktif.
-
-Menjadi portofolio proyek yang bermanfaat bagi mahasiswa dan komunitas kampus.
-
-👥 Target Pengguna
-
-🎓 Mahasiswa UNESA Ketintang yang membutuhkan tempat nyaman untuk nugas dan belajar.
-
-☕ Komunitas kampus atau organisasi yang mencari lokasi diskusi informal.
-
-🏢 Pemilik usaha lokal (kafe, coworking space) yang ingin dikenal mahasiswa.
-
-🌍 Manfaat Website
-Pengguna	Manfaat
-👩‍🎓 Mahasiswa	Menemukan tempat nugas terbaik dan terdekat dari kampus.
-☕ Pemilik Kafe	Media promosi tidak langsung untuk menarik mahasiswa.
-👨‍🏫 Komunitas Kampus	Membantu mencari lokasi pertemuan informal di sekitar kampus.
-🧩 Cara Menggunakan Fitur
-Fitur	Deskripsi
-🌗 Dark Mode	Klik ikon bulan di pojok kanan atas untuk mengubah tema.
-🎲 Rekomendasi Acak	Setiap kali halaman beranda di-refresh, tampil 1 tempat acak.
-📬 Form Saran	Isi semua kolom lalu klik “Kirim” untuk menambahkan rekomendasi baru.
-📍 Lokasi Tempat	Klik tautan “Lihat di Google Maps” pada halaman detail untuk arah lokasi.
-🚀 Cara Deploy GitHub Pages (jika update baru)
-
-Pastikan semua file sudah di-push ke branch main.
-
-Buka Settings → Pages → Deploy from branch → pilih main dan folder / (root).
-
-Klik Save, tunggu beberapa menit.
-
-Akses di: https://syawailie.github.io/workspot-unesa/.
-
-🧾 Informasi Tambahan
-
-Website ini dibuat sebagai Proyek UTS Mata Kuliah Pemrograman Web.
-
-Dosen pengampu: (isi sesuai dosen kalian)
-
-Framework/Libraries yang digunakan:
-
-Font Awesome → untuk ikon (dark mode, search, lokasi).
-
-Google Fonts (Poppins) → untuk tipografi utama.
-
-Editor: Visual Studio Code
-
-✉️ Pembuat / Tim Pengembang
-Nama	Peran	Kampus
-Syawailie Syaf Anhar	UI/UX & Front-End Developer	Universitas Negeri Surabaya
-(Nama Anggota 2)	Back-End & Dokumentasi	UNESA
-(Nama Anggota 3)	Konten & Testing	UNESA
-
-📍 GitHub: https://github.com/syawailie/workspot-unesa
-
-🌐 Website: https://syawailie.github.io/workspot-unesa/
-
-Kamu tinggal ganti:
-
-Nama anggota tim
-
-Link GitHub Pages (kalau domain kamu beda)
-
-Nama dosen / mata kuliah jika ingin lebih formal
-
-Apakah kamu mau saya bantu lanjut sekalian buatin script.js template yang isinya fitur dark mode + rekomendasi acak + validasi form (biar sekalian lengkap untuk repo GitHub kamu)?
+📍 GitHub Repo: https://github.com/syawailie/workspot-unesa
+🌐 Website Online: https://syawailie.github.io/workspot-unesa/
