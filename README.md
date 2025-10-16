@@ -1,19 +1,19 @@
 # WorkSpot UNESA
 
 ## ✨ Sistem yang Dirancang  
-**Website Rekomendasi Tempat Nugas Mahasiswa “WorkSpot UNESA Ketintang”**
+**Website Rekomendasi Tempat Nugas Mahasiswa “WorkSpot UNESA”**
 
 ---
 
 ## Latar Belakang  
 Di era digital, mahasiswa sering membutuhkan tempat yang nyaman untuk mengerjakan tugas, berdiskusi, atau sekadar belajar di luar kelas.  
-Website **WorkSpot UNESA Ketintang** dibuat untuk membantu mahasiswa Universitas Negeri Surabaya, khususnya Kampus Ketintang, menemukan tempat seperti **kafe, coworking space, taman, maupun area kampus** yang mendukung kegiatan produktif mereka.  
+Website **WorkSpot UNESA** dibuat untuk membantu mahasiswa Universitas Negeri Surabaya, menemukan tempat seperti **kafe, coworking space, perpus, maupun area kampus** yang mendukung kegiatan produktif mereka.  
 Proyek ini juga menjadi bagian dari **penilaian UTS mata kuliah Pemrograman Web**, sebagai latihan dalam membangun website interaktif menggunakan **HTML, CSS, dan JavaScript**.
 
 ---
 
 ## 🧩 Deskripsi Sistem  
-Website ini menampilkan berbagai **rekomendasi tempat nugas dan nongkrong** di sekitar UNESA Ketintang, dengan fitur interaktif yang membantu pengguna menemukan lokasi sesuai kebutuhan.  
+Website ini menampilkan berbagai **rekomendasi tempat nugas dan nongkrong** di sekitar UNESA Ketintang dan Lidah Wetan, dengan fitur interaktif yang membantu pengguna menemukan lokasi sesuai kebutuhan.  
 
 ### Halaman Utama:
 - 🏠 **Beranda** – Menampilkan daftar tempat dan fitur *“Rekomendasi Hari Ini”* secara acak.  
@@ -60,7 +60,7 @@ Website dapat diakses secara publik melalui link berikut:
 ### 🔹 2. Menjalankan Secara Lokal  
 1. Clone repository:  
    ```bash
-   git clone https://github.com/syawailie/workspot-unesa.git
+   git clone https://github.com/Kenzacky/Web-UTS.git
 2. Buka folder dan klik dua kali file index.html.
 3. Website akan terbuka langsung di browser.
 
