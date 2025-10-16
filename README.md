@@ -55,7 +55,7 @@ Website ini dikembangkan dengan tujuan untuk:
 
 ### 🔹 1. Melalui GitHub Pages  
 Website dapat diakses secara publik melalui link berikut:  
-👉 **[https://syawailie.github.io/workspot-unesa/](https://syawailie.github.io/workspot-unesa/)**  
+👉 https://kenzacky.github.io/Web-UTS/beranda.html   
 
 ### 🔹 2. Menjalankan Secara Lokal  
 1. Clone repository:  
@@ -66,5 +66,5 @@ Website dapat diakses secara publik melalui link berikut:
 
 ---
 
-📍 GitHub Repo: 
+📍 GitHub Repo: https://github.com/Kenzacky/Web-UTS
 🌐 Website Online: https://kenzacky.github.io/Web-UTS/beranda.html 
